@@ -1,0 +1,142 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffcc;
+  position: center;
+  bottom: 0;
+  width: 100%;
+  
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  margin-left: 15px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: blue;
+  
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+h1{
+	margin: 1em;
+	font-size: 2em;
+}
+
+
+#contact {
+	margin: 2em
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #527a7a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.slika{
+	
+	display: flex;
+   	position: relative;
+
+}
+
+.jela{
+	position: absolute;
+  	bottom: 45%;
+  	left: 60%;
+
+	transform: translate(-10%, -24%);
+
+}
+
+
+.editor-stage .snow {
+  height:100px;
+  background: #fff;
+}
+.snow{
+  position:fixed;
+  pointer-events:none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+  background: none;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+  z-index:100;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+
+h1{
+text-shadow: 0 0 3px #FF0000;
+text-align: center;
+font-size: 60px;
+
+
+}

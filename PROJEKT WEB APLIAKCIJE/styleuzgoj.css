@@ -1,0 +1,59 @@
+.navbar {
+  overflow: hidden;
+  
+  position: center;
+  bottom: 0;
+  width: 100%;
+  
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: blue;
+  
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+
+}
+
+.uzgoj{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	
+  	width: 50%;
+}
+
+
+.naslov{
+	position: relative;
+	text-align: center;
+	margin: auto;
+	border: 3px solid green;
+	padding: 10px;
+	
+
+}
